@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export const Header = () => {
-  console.log('Header Component Rendered');
   return (
     <header>
         <nav>

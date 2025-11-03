@@ -1,12 +1,13 @@
-import styles from "./page.module.css";
+import { Description } from "app/components/home/Description";
+import { Hero } from "app/components/home/Hero";
+import { MainProducts } from "app/components/home/MainProducts";
 
 export default function Home() {
-  console.log('Home Page Rendered');
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <h1>Hola Mundo</h1>
-      </main>
-    </div>
+    <main>
+      <Hero />
+      <Description />
+      <MainProducts />
+    </main>
   );
 }
