@@ -12,7 +12,6 @@ export default async function CategoryPage({ params,searchParams}:CategoryPagePr
   return (
     <div>
       <h1>Category: {categories}</h1>
-      {/* Additional content can be added here */}
     </div>
   );
 }
